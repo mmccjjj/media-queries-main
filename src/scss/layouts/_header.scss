@@ -1,0 +1,21 @@
+header{
+    min-height: 4rem;
+    background-color: #003285;
+}
+nav{
+    visibility: hidden;
+    ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    @media screen and (width >= 768px) {
+        visibility: visible;
+    }
+        
+    
+}
+
+a{
+    color: #fff;
+}

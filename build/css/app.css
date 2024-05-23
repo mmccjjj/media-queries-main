@@ -1,14 +1,28 @@
-body {
-  margin: 0;
+header {
+  min-height: 4rem;
+  background-color: #003285;
+}
+
+nav {
+  visibility: hidden;
+}
+nav ul {
+  list-style: none;
   padding: 0;
+  margin: 0;
+}
+@media screen and (width >= 768px) {
+  nav {
+    visibility: visible;
+  }
 }
 
 a {
   color: #fff;
 }
 
-header {
-  min-height: 4rem;
+footer {
+  min-height: 12rem;
   background-color: #003285;
 }
 
@@ -29,20 +43,21 @@ main {
   min-height: 4rem;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+@media screen and (width >= 768px) {
+  .layout {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 aside {
   min-height: 20rem;
-  background-color: #2A629A;
+  background-color: #FF7F3E;
 }
 
-footer {
-  min-height: 12rem;
-  background-color: #FFDA78;
+body {
+  margin: 0;
+  padding: 0;
 }
 
 /*# sourceMappingURL=app.css.map */
