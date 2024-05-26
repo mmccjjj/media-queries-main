@@ -27,6 +27,7 @@ footer {
 }
 
 main {
+  width: 100%;
   min-height: 40rem;
   background-color: #FF7F3E;
 }
@@ -46,11 +47,12 @@ main {
 @media screen and (width >= 768px) {
   .layout {
     display: flex;
-    flex-direction: row;
+    flex-grow: 1;
   }
 }
 
 aside {
+  width: 100%;
   min-height: 20rem;
   background-color: #FF7F3E;
 }

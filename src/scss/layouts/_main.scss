@@ -1,6 +1,8 @@
+@use "../abstracts/variables";
 main{
+    width: 100%;
     min-height: 40rem;
-    background-color: #FF7F3E;
+    background-color: variables.$maincolor;
 }
 
 .card__list{
@@ -18,7 +20,8 @@ main{
 .layout{
     @media screen and (width >= 768px) {
         display: flex;
-        flex-direction: row;
+        flex-grow: 1;
+        
         
     }
 }
