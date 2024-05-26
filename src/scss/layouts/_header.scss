@@ -1,6 +1,8 @@
+@use "../abstracts/variables";
+
 header{
     min-height: 4rem;
-    background-color: #003285;
+    background-color: variables.$seccolor;
 }
 nav{
     visibility: hidden;

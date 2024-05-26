@@ -1,4 +1,6 @@
+@use "../abstracts/variables";
+
 footer{
     min-height: 12rem;
-    background-color: #003285;
+    background-color: variables.$seccolor;
 }
