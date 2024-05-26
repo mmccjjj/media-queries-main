@@ -1,5 +1,7 @@
+@use "../abstracts/variables";
+
 aside{
     width: 100%;
     min-height: 20rem;
-    background-color: #FF7F3E;
+    background-color: variables.$maincolor
 }
