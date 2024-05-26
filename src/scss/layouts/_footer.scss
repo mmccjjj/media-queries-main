@@ -3,4 +3,8 @@
 footer{
     min-height: 12rem;
     background-color: variables.$seccolor;
+        @media screen and (width >= 1024px) {
+            background-color: #FFDA78;
+
+        } 
 }

@@ -10,14 +10,24 @@ nav{
         list-style: none;
         padding: 0;
         margin: 0;
+        
+        @media screen and (width >= 1024px) {
+            display: flex;
+            background-color: transparent;
+    
+        } 
+       
     }
     @media screen and (width >= 768px) {
         visibility: visible;
-    }
-        
+        background-color: #fff;
+    }   
     
 }
 
 a{
     color: #fff;
+    @media screen and (width >= 768px){
+        color: black;
+    }
 }
